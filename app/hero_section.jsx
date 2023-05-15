@@ -1,16 +1,19 @@
 import Image from "next/image";
 import { FaGraduationCap } from "react-icons/fa";
+import Navbar from "./navbar/Navbar";
 export default function Hero_section() {
   return (
     <div className="relative" style={{ height: "100vh", overflow: "hidden" }}>
       <div
-        className="bg-[#FFF0CF] relative"
+        className="bg-hmi-papaya-whip relative"
         style={{ height: "80vh", overflow: "hidden" }}
       >
+        <Navbar/>
         <div
           className="flex justify-center items-center"
-          style={{ height: "100%" }}
+          style={{ height: "60%" }}
         >
+          
           <div>
             <h1 className="text-4xl font-extrabold text-hmi-black md:text-5xl lg:text-6xl mb-5 text-center">
               Comtech Project <br></br> Universitas Nurul Jadid
