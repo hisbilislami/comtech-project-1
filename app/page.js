@@ -1,10 +1,8 @@
-import styles from "./page.module.css";
-
+import Hero_section from "./hero_section";
 export default function Home() {
   return (
-    <main className={styles.main}>
-      {/* content will go in here. */}
-      <h1 className="2xl">Hello world</h1>
+    <main>
+      <Hero_section></Hero_section>
     </main>
   );
 }
