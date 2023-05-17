@@ -12,7 +12,7 @@ module.exports = {
         "hmi-black": "#070606",
         "hmi-caf-noir": "#4b3822",
         "hmi-dun": "#c2bbab",
-        "hmi-timberwolf": "#d7d7d3",
+        "hmi-timberwolf": "#f1f0eb",
         "hmi-black2": "#010102",
         "hmi-isabelline": "#efe8e2",
         "hmi-reseda-green": "#5e7e65",
