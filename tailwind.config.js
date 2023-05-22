@@ -18,6 +18,7 @@ module.exports = {
         "hmi-reseda-green": "#5e7e65",
         "hmi-white": "#fefefeff",
         "hmi-battleship-gray": "#9f968bff",
+        "hmi-bg-history": "#F1F0EB",
       },
     },
   },

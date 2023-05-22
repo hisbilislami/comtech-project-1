@@ -1,8 +1,9 @@
-import Hero_section from "./hero_section";
+import Hero_section from "./komponen/hero_section";
+import History from "./komponen/History";
 export default function Home() {
   return (
     <main>
-      <Hero_section></Hero_section>
+      <History></History>
     </main>
   );
 }
