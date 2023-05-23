@@ -18,7 +18,7 @@ const Testimoni = () => {
       className="bg-hmi-timberwolf flex justify-center items-center"
     >
       <div className="w-5/6 h-[80%]">
-        <div className="grid grid-rows-1 grid-cols-6 gap-4 min-h-full relative overflow-hidden">
+        <div className="grid grid-rows-1 grid-cols-6 gap-8 min-h-full relative overflow-hidden">
           <RiSingleQuotesL className="absolute font-extrabold -top-10 left-6 right-[20px] text-[200px] text-hmi-black rotate-[35deg]" />
           <RiSingleQuotesL className="absolute font-extrabold -top-12 left-3 text-[200px] text-[#ff6c2a] rotate-[35deg]" />
           <div className=""></div>
