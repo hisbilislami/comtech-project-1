@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Gloria_Hallelujah } from "next/font/google";
+import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 
 // mendeklarasikan font
 const gloriaHalelujahFont = Gloria_Hallelujah({
@@ -24,7 +25,7 @@ const History = () => {
           <p className="font-serif font-extrabold text-4xl mt-2 text-center">
             Our History
           </p>
-          <p className="font-arial mt-5 text-center text-sm">
+          <p className="font-arial mt-5 text-center text-sm text-hmi-battleship-gray">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
             architecto excepturi nisi hic amet voluptates quis nam soluta quam
             minima.
@@ -41,7 +42,7 @@ const History = () => {
             2016
           </span>
           {/* Description */}
-          <p className="mt-5">
+          <p className="mt-5 text-hmi-battleship-gray">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quos,
             sunt in quo deserunt asperiores similique quasi qui assumenda magni!
           </p>
@@ -53,7 +54,7 @@ const History = () => {
             2017
           </span>
           {/* Description */}
-          <p className="mt-5">
+          <p className="mt-5 text-hmi-battleship-gray">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quos,
             sunt in quo deserunt asperiores similique quasi qui assumenda magni!
           </p>
@@ -65,7 +66,7 @@ const History = () => {
             2018
           </span>
           {/* Description */}
-          <p className="mt-5">
+          <p className="mt-5 text-hmi-battleship-gray">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quos,
             sunt in quo deserunt asperiores similique quasi qui assumenda magni!
           </p>
@@ -77,7 +78,7 @@ const History = () => {
             2019
           </span>
           {/* Description */}
-          <p className="mt-5">
+          <p className="mt-5 text-hmi-battleship-gray">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quos,
             sunt in quo deserunt asperiores similique quasi qui assumenda magni!
           </p>
@@ -89,7 +90,7 @@ const History = () => {
             2020
           </span>
           {/* Description */}
-          <p className="mt-5">
+          <p className="mt-5 text-hmi-battleship-gray">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quos,
             sunt in quo deserunt asperiores similique quasi qui assumenda magni!
           </p>
@@ -100,22 +101,17 @@ const History = () => {
       {/* Scroll Start */}
       <div className="pl-24 pt-7">
         {/* Left */}
-        <button className="mr-5">
-          <Image
-            src="/arrow-left.svg"
-            width={40}
-            height={40}
-            alt="left icon button"
-          />
+        <button
+          type="button"
+          className="border-[2px] border-hmi-black2 rounded-lg p-2 mx-4"
+        >
+          <FiArrowLeft className="text-2xl" />
         </button>
-        {/* Right */}
-        <button>
-          <Image
-            src="/arrow-right.svg"
-            width={40}
-            height={40}
-            alt="right icon button"
-          />
+        <button
+          type="button"
+          className="border-[2px] border-hmi-black2 rounded-lg p-2 mx-4 shadow-[3px_2px_1px_1px] shadow-black"
+        >
+          <FiArrowRight className="text-2xl" />
         </button>
       </div>
       {/* Scroll End */}
