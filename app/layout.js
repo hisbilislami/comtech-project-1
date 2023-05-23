@@ -11,7 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={plus_jakarta_sans.className}>{children}</body>
+      <body
+        suppressHydrationWarning={true}
+        className={plus_jakarta_sans.className}
+      >
+        {children}
+      </body>
     </html>
   );
 }
