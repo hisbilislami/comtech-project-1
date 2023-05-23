@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { FaIntercom } from "react-icons/fa";
 import { FaBookReader } from "react-icons/fa";
-import { FaExpandArrowsAlt } from "react-icons/fa";
+import { FaExpandArrowsAlt, FaGraduationCap } from "react-icons/fa";
 import { FaChalkboard } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa";
 import Navbar from "./Navbar";
 import { Gloria_Hallelujah } from "next/font/google";
+import History from "./History";
 const gloriaHalelujahFont = Gloria_Hallelujah({
   subsets: ["latin"],
   weight: ["400"],
@@ -83,7 +84,11 @@ export default function Hero_section() {
         </div>
       </div>
       <div className="w-9/12 absolute rounded-3xl bg-white border-[4px] border-black p-6 bottom-[1px] mx-[170px]">
-        <p className={`${gloriaHalelujahFont.className} text-center mb-[20px] font-mono`}>trusted by</p>
+        <p
+          className={`${gloriaHalelujahFont.className} text-center mb-[20px] font-mono`}
+        >
+          trusted by
+        </p>
         <div className="flex items-center justify-center">
           <div style={{ textAlign: "center" }} className="mx-10 block">
             <FaExpandArrowsAlt className="mx-auto text-2xl" />
