@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "hmi-orange": "#DDB85D",
         "hmi-yellow": "#f3b646",
         "hmi-papaya-whip": "#feefd0",
         "hmi-black": "#070606",

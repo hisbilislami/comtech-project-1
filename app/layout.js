@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-hmi-timberwolf">
       <body
         suppressHydrationWarning={true}
         className={plus_jakarta_sans.className}

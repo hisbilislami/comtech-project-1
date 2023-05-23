@@ -24,7 +24,7 @@ const Testimoni = () => {
           <div className=""></div>
           <div className="col-span-4 flex flex-col justify-between items-center ">
             <h3
-              className={`${gloriaHallelujahFont.className} text-hmi-yellow text-2xl`}
+              className={`${gloriaHallelujahFont.className} text-hmi-orange text-2xl`}
             >
               TESTIMONIALS
             </h3>
