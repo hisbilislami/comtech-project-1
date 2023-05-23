@@ -13,13 +13,12 @@ const Navbar = () => {
         <li className="p-4">Shop</li>
         <li className="p-4">Contact</li>
         <li className="p-4 flex">
-          Card 
-          <span class="relative flex h-3 w-3">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-3 w-3 bg-orange-500"></span>
+          Card
+          <span className="relative flex h-3 w-3">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-orange-500"></span>
           </span>
         </li>
-        
       </ul>
     </div>
   );
