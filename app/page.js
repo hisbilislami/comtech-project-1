@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <main>
       <Hero_section></Hero_section>
-      <Mission_section></Mission_section>
-      <History></History>
-      <Testimoni />
+      {/* <Mission_section></Mission_section> */}
+      {/* <History></History>
+      <Testimoni /> */}
     </main>
   );
 }
