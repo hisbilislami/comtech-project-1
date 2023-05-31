@@ -3,6 +3,7 @@ import Mission_section from "./components/Mission_section";
 import History from "./components/History";
 import Testimoni from "./components/testimoni";
 import Contact from "./components/Contact";
+import Subcription_section from "./components/Subcription_section";
 export default function Home() {
   return (
     <main>
@@ -11,6 +12,7 @@ export default function Home() {
       <History></History>
       <Testimoni />
       <Contact />
+      <Subcription_section></Subcription_section>
     </main>
   );
 }
