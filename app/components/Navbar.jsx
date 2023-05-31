@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-20 max-w-[1220px] mx-auto mt-10 px-10 text-black bg-white rounded-2xl">
       <h1 className="w-full text-3xl font-bold text-[#070606ff]">Comtech O.</h1>
       <ul className="hidden md:flex font-bold">
-        <li className="p-4">About</li>
+        <li className="p-4">Hisbil</li>
         <li className="p-4">Services</li>
         <li className="p-4">Work</li>
         <li className="p-4">Blog</li>
