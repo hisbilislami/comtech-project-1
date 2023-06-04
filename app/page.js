@@ -5,11 +5,13 @@ import Testimoni from "./components/testimoni";
 import Contact from "./components/Contact";
 import Subcription_section from "./components/Subcription_section";
 import Footer from "./components/Footer";
+import Experience_section from "./components/Experience_section";
 
 export default function Home() {
   return (
     <main>
       <Hero_section></Hero_section>
+      <Experience_section></Experience_section>
       <Mission_section></Mission_section>
       <History></History>
       <Testimoni />
