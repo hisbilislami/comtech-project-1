@@ -13,7 +13,7 @@ function Experience_section() {
         Hello Friends :)
       </p>
       <h1 className="text-center font-extrabold text-4xl mx-80">
-        Hey, we're Oslo. We bring together years of experience.
+        Hey, we&apos;re Oslo. We bring together years of experience.
       </h1>
       <p className="text-sm text-hmi-battleship-gray text-center mb-32 mt-8 mx-96">
         lorem ipsum sit amet, consectetur adipiscing elit. Meecenas massa massa
@@ -81,4 +81,4 @@ function Experience_section() {
   );
 }
 
-export default Experience_section
+export default Experience_section;
