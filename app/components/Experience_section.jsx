@@ -46,6 +46,7 @@ function Experience_section() {
               width: "300px",
               height: "350px",
             }}
+            alt="Dies natalies HMI"
             className="border-hmi-orange border-4 rounded-2xl rotate-[-10deg]"
           ></Image>
         </div>
@@ -58,6 +59,7 @@ function Experience_section() {
               width: "300px",
               height: "350px",
             }}
+            alt="Idul Fitri"
             className="border-hmi-papaya-whip border-4 rounded-2xl rotate-[-3deg]"
           ></Image>
         </div>
@@ -70,6 +72,7 @@ function Experience_section() {
               width: "300px",
               height: "350px",
             }}
+            alt="Hari Kartini"
             className="border-hmi-reseda-green border-4 rounded-2xl rotate-[15deg]"
           ></Image>
         </div>
