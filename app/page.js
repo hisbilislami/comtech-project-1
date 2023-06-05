@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Subcription_section from "./components/Subcription_section";
 import Footer from "./components/Footer";
 import Experience_section from "./components/Experience_section";
+import Start_section from "./components/Start_section";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Experience_section></Experience_section>
       <Mission_section></Mission_section>
       <History></History>
+      <Start_section></Start_section>
       <Testimoni />
       <Subcription_section></Subcription_section>
       <Contact />
